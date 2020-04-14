@@ -6,7 +6,7 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "owen"
+    organization = "deopard"
     workspaces {
       name = "terraform-test"
     }
